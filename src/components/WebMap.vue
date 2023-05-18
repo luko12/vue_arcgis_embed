@@ -54,6 +54,8 @@ export default {
 
     const view = new MapView({
       map,
+      center: [-71.894814, 41.882568],
+      zoom: 7,
       container: "map-view"
     });
 
@@ -66,7 +68,7 @@ export default {
 
 <style>
   /* esri styles */
-  @import url('https://js.arcgis.com/3.23/esri/css/esri.css');
+  /* @import url('https://js.arcgis.com/3.23/esri/css/esri.css'); */
   #map-view {
     height: 400px;
     width: 400px;
